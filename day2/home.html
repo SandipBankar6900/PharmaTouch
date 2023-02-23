@@ -149,12 +149,13 @@
      }
      .box3{
       width: 100%;
-      height: 180px;
+      /* height: 180px; */
        text-align: center;
        /* border: 1px solid red; */
        background-color: #f6f6f6;
        margin-top: 20px;
        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+       padding: 20px;
      }
      .box3 img{
       width: 80%;
@@ -163,7 +164,8 @@
      }  
      .box3 p{
       margin-right:69% ;
-      margin-top: 10px;
+      margin-top: 30px;
+      font-size: large;
 
      }
      .box4{
@@ -287,6 +289,12 @@
    }
 
    /* footerpart */
+    #footercontainer{
+      background-color: #fffcf8;
+      padding-top: 1%;
+    }
+
+
    .footer1{
   
     display: flex;
@@ -297,7 +305,7 @@
    }
    .footer1>div>ul{
     list-style-type: none;
-    line-height: 30px;
+    line-height: 25px;
    }
    .footer1>div>h4{
     margin-bottom: 10px;
@@ -320,29 +328,39 @@
    
 
    .footer2{
-    width: 90%;
+    width: 80%;
     height: 180px;
     display: flex;
     margin: auto;
+    /* margin-bottom: 50px; */
     
     
    }
-   .footer2>div{
+   .footer2 >div{
     display: flex;
+    
+    width: 30%;
+    margin-top: 40px;
     margin: 20px;
-    /* width: 40%; */
-    margin: 80px;
   
     
    }
   
    .footer2 img{
     width: 100%;
+
+  
+    
+  
+   }
+   .footer2 h1{
+    margin-bottom: 10px;
     
    }
+   
    .footer2>div>div{
     /* border: 1px solid red; */
-    margin: 10px;
+    margin: 20px;
    }
 
    hr{
@@ -351,7 +369,24 @@
     margin-top: 40px;
   
    }
-
+   .footer3{
+    text-align: center;
+   }
+   .footer3 img{
+    width: 100px;
+    margin: 25px;
+   }
+  .footer4{
+    /* border: 1px solid red; */
+    padding: 12px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .footer4 h4{
+    margin-left: 10px;
+    
+  }
    
      
      
@@ -375,9 +410,9 @@
           </div>
 
           <div class="right11">
-              <a href=""><span>Login</span></a>
+              <a href="./login.html"><span>Login</span></a>
               <span>|</span>
-              <a href=""><span>sign Up</span></a>
+              <a href="./signup.html"><span>sign Up</span></a>
              </div>
              <div class="right12">
               <a href="">Offers</a>
@@ -402,6 +437,11 @@
              <div class="select">
               <select name="" id="">
                 <option value="">Health Resource Center</option>
+                <option value="All Diseases">All Diseases</option>
+                <option value="All Medicines"><a href="./products.html">All  Medicines</a></option>
+                <option value="Medicines by Therapeutic Class">Medicines by Therapeutic Class</option>
+                
+                 
                 
               </select>
               <select name="" id="">
@@ -555,6 +595,7 @@
                 
               </div>
               <!-- footerpart -->
+              <div id="footercontainer">
               <div class="footer1">
                 <div>
                    <h4>Know Us</h4>
@@ -638,6 +679,16 @@
                 
               </div>
               <hr>
+              <div class="footer3">
+                <img src="https://static.legitscript.com/seals/729605.png" alt="err">
+                <img src="https://onemg.gumlet.io/URS_ebgmxc.png" alt="err">
+                <h3>India's only LegitScript and ISO/ IEC 27001 certified online healthcare platform</h3>
+              </div>
+              <div class="footer4">
+                <h4>Know more about Tata 1mg</h4>
+              
+              </div>
+              </div>
               
           
 
