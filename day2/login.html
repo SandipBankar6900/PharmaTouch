@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Log in</title>
+    <style>
+         *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+     #nav1{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* border: 1px solid red; */
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      padding: 5px;
+
+
+     }
+     .left{
+      
+      
+     }
+     
+     
+     .left img{
+      width: 200px;
+    
+    
+     }
+     .middle{
+      /* border: 1px solid green; */
+      margin-right: 100px;
+
+     }
+     .middle a{
+      margin: 10px;
+      text-decoration: none;
+      font-weight: 100;
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     .right11{
+      margin-left: 30px;
+     }
+     .right11 a{
+      text-decoration: none;
+      font-size: small;
+      color: black;
+     }
+     .right12{
+      margin-right:20px ;
+     }
+     .right12 a{
+      
+      margin: 10px;
+      text-decoration: none;
+      font-size: small;
+      color: black;
+     }
+     #nav2{
+      display: flex;
+      justify-content: space-between;
+      /* border: 1px solid red; */
+      padding: 5px;
+      align-items: center;
+    
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+    
+      
+     }
+
+     .left2{
+      margin-left: 30px;
+      
+
+     }
+     #search{
+      width: 600px;
+      padding: 6px;
+      background-color: #f1f4f6;
+      border: none;
+      
+     }
+     #location{
+      padding: 6px;
+      background-color: #f1f4f6;
+      border: none;
+    
+     }
+     .right2{
+      display: flex;
+      margin-right: 15px;
+    
+     }
+     .right2 p{
+       font-size:12px;
+       margin-right: 6px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-top: 7px;
+     }
+     .right2 button{
+       padding: 7px;
+       background-color: red;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     #nav3{
+    
+      /* border: 1px solid red; */
+      font-size: 5px;
+     }
+     .select{
+      margin-left: 80px;
+      margin-top: 5px;
+      
+     }
+     .select select{
+      border: none;
+      margin: 2px;
+      font-size: 12px;
+     }
+     #Login{
+        width: 40%;
+
+        height: 400px;
+        /* border: 1px solid red; */
+        margin: auto;
+        text-align: center;
+        margin-top: 120px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     #Login input{
+        
+        padding: 15px;
+        
+        
+     }
+     #submit{
+        width:20%;
+        border: none;
+        background-color: red ;
+        color: white;
+        border-radius: 5px;
+     }
+      form{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        
+     }
+     #Login p{
+        margin-top: 10px;
+        color: grey;
+     }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="nav">
+      <a href="./index.html">Signup</a>
+      <a href="./signin.html">Signin</a>
+    </div> -->
+    <div id="nav1">
+          
+        <div class="left">
+          <img src="./PHARMATOUCH (1).png" alt="err">
+        </div>
+        
+      <div class="middle">
+        <a href="">MEDICINES</a>
+        <a href="">LAB TESTS</a>
+        <a href="">CONSULT DOCTORS</a>
+        <a href="">COVID-19</a>
+        <a href="">AYURVEDA</a>
+        <a href="">CARE PLAN</a>
+        </div>
+    
+        <div class="right11">
+            <a href="./login.html"><span>Login</span></a>
+            <span>|</span>
+            <a href="./signup.html"><span>sign Up</span></a>
+           </div>
+           <div class="right12">
+            <a href="">Offers</a>
+            <a href=""><i class="fa-sharp fa-regular fa-cart-shopping"></i></a>
+              <a href="">Need Help?</a>
+              </div>
+            </div>  
+          </div>
+    
+          <div id="nav2">
+            <div class="left2">
+          <input type="text" placeholder=" Location"  id="location">
+          <input type="text" placeholder=" Search for Medicines and Helth Product" id="search">
+            </div>
+            <div class="right2">
+              <p>QUICK BUY!</p>
+              <button>QUICK ORDER</button>
+            </div>
+          </div>
+         
+          <div id="nav3">
+           <div class="select">
+            <select name="" id="">
+              <option value="">Health Resource Center</option>
+              <option value="All Diseases">All Diseases</option>
+              <option value="All Medicines">All Medicines</option>
+              <option value="Medicines by Therapeutic Class">Medicines by Therapeutic Class</option>
+              
+              
+            </select>
+            <select name="" id="">
+              <option value="">Vitamins & Nutrition</option>
+            </select>
+            <select name="" id="">
+              <option value="">Diabetes</option>
+            </select>
+            <select name="" id="">
+              <option value="">Healthcare Devices</option>
+            </select>
+            <select name="" id="">
+              <option value="">Personal Care</option>
+            </select>
+            <select name="" id="">
+              <option value="">Health Conditions</option>
+            </select>
+            <select name="" id="">
+              <option value="">Ayurveda Products</option>
+            </select>
+            <select name="" id="">
+              <option value="">Homeopathy</option>
+            </select>
+            <select name="" id="">
+              <option value="">Featured</option>
+            </select>
+            <select name="" id="">
+              <option value="">Covid Essentials</option>
+            </select>
+            </div>
+          </div>
+    
+    
+
+    <div id="Login">
+      <h1>Login</h1>
+      <p>Get access to your orders, lab tests & doctor consultations</p>
+      <form>
+        <input type="email" id="email" size="40" placeholder="Email" /><br><br>
+        <input type="password" id="password" size="40" placeholder="Password" /><br><br>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </div>
+  </body>
+  <script>
+    let LsData = JSON.parse(localStorage.getItem("account-data")) || [];
+
+    
+
+    let myForm = document.querySelector("form");
+    let Email = document.getElementById("email");
+    let Password = document.getElementById("password");
+
+    myForm.addEventListener("submit", formData);
+
+    function formData(e) {
+      e.preventDefault();
+
+      let obj = {
+        email: Email.value,
+        password: Password.value,
+      };
+
+
+      
+      if (LsData[0].email == obj.email && LsData[0].password == obj.password) {
+        // document.getElementById("heading").innerText = "Sign in Successful";
+        // alert("Login Successful")
+        window.location.href="./home.html"
+        
+      } else if(LsData[0].email !== obj.email) {
+        // document.getElementById("heading").innerText = "Wrong Credentials";
+        alert("Your Email Is Wrong Please Enter Valid Email")
+      }
+      else if(LsData[0].password !== obj.password){
+        alert("Your Password Is Wrong Please Enter Valid Password")
+      }
+      
+
+    
+    }
+
+  </script>
+</html>
